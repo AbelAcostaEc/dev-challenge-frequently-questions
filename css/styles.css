@@ -1,0 +1,76 @@
+/* Add your CSS styles here */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #030616;
+}
+
+.container {
+	width: 100%;
+	padding: 15px;
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 768px;
+		margin: 0 auto;
+	}
+}
+
+.title {
+	text-align: center;
+	font-size: 36px;
+	font-weight: 600;
+	margin-top: 50px;
+}
+
+.subtitle {
+	text-align: center;
+	font-weight: 400;
+	margin-top: 15px;
+}
+
+.question {
+	padding: 15px;
+}
+
+.question .title {
+	text-align: left;
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.question .text {
+	margin: 25px 0;
+}
+
+ol,
+ul {
+	margin-left: 20px;
+}
+li {
+	margin-bottom: 10px;
+}
+
+hr {
+	height: 1px;
+	border: none;
+	background-color: #d2d5da;
+}
+
+.link {
+	color: #4e80ee;
+	text-decoration: none;
+}
+
+.bold {
+	font-weight: 600;
+}
